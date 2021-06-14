@@ -43,6 +43,16 @@ namespace webapiworkflow
         public void ConfigureServices(IServiceCollection services)
         {
 
+          
+            //Set the date format
+            services.AddControllers()
+    .AddNewtonsoftJson(options =>
+    {
+        options.SerializerSettings.DateFormatString = "dd-MM-yyyy";
+    });
+
+
+
             services.AddControllers();
 
 
@@ -175,13 +185,17 @@ namespace webapiworkflow
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            
+          
+
 
 
 
             // Enable middleware to serve generated Swagger as a JSON endpoint.
             app.UseSwagger();
 
+
+
+       
             // Enable middleware to serve swagger-ui (HTML, JS, CSS, etc.),
             // specifying the Swagger JSON endpoint.
             app.UseSwaggerUI(c =>

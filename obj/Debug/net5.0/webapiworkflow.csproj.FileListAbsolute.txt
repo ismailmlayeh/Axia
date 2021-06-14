@@ -45,3 +45,6 @@ C:\Users\ismail\source\repos\webapiworkflow\webapiworkflow\obj\Debug\net5.0\ref\
 C:\Users\ismail\source\repos\webapiworkflow\webapiworkflow\obj\Debug\net5.0\webapiworkflow.pdb
 C:\Users\ismail\source\repos\webapiworkflow\webapiworkflow\obj\Debug\net5.0\webapiworkflow.genruntimeconfig.cache
 C:\Users\ismail\source\repos\webapiworkflow\webapiworkflow\obj\Debug\net5.0\webapiworkflow.csprojAssemblyReference.cache
+C:\Users\ismail\source\repos\webapiworkflow\webapiworkflow\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\ismail\source\repos\webapiworkflow\webapiworkflow\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\ismail\source\repos\webapiworkflow\webapiworkflow\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
