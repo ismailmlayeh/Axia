@@ -7,7 +7,10 @@ trigger:
 - main
 
 pool:
-  vmImage: windows-latest
+  vmImage: ubuntu-latest
+- task: DotNetCoreCLI@2
+  inputs:
+    command: 'build'
 
 steps:
 - script: echo Hello, world!
